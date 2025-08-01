@@ -14,7 +14,7 @@ import cir from "./assets/images/pattern-circle.svg";
 import rings from "./assets/images/pattern-rings.svg";
 
 function App() {
-  let skills = ["React", "Javascript","CSS", "Node","Express","Mongoose","MongoDB","MySQL","AWS"];
+  let skills = ["LLMs", "AI & ML", "RAG systems", "React", "Typescript","Node", "Java", "Springboot", "Python", "Fast API","MySQL","AWS"];
   const contactRef = useRef(null);
   const scrollToContact = () => {
     contactRef.current.scrollIntoView({behavior:'smooth'});
@@ -68,7 +68,7 @@ function App() {
       <div className="skills">
         <div className="skill-container">
           {skills.map((item)=>(
-            <span className="head">{item}<br></br><span className="sub-head">3+ Years Experience</span></span>
+            <span className="head">{item}<br></br><span className="sub-head">2 Years Experience</span></span>
           ))}
         </div>
       </div>
