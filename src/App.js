@@ -6,6 +6,7 @@ import web from "./assets/images/icon-frontend-mentor.svg"
 import link from "./assets/images/icon-linkedin.svg";
 import twi from "./assets/images/icon-twitter.svg";
 import p1 from "./assets/images/full stack thumbnail.png";
+import p0 from "./assets/images/Smart email thumbnail.png";
 import p2 from "./assets/images/comment maker.png";
 import p3 from "./assets/images/bootstrap thumbnail-2.png";
 import p4 from "./assets/images/Adminops_sec.png";
@@ -77,6 +78,18 @@ function App() {
           <p onClick={scrollToContact}>CONTACT ME</p>
         </div>
         <div className="projects-main">
+          <div className="container">
+            <img src={p0}></img>
+            <a className="overlay-1" style={{textDecoration:'none'}} href='https://smart-email-assistant-mcia.onrender.com/'>VIEW PROJECT</a>
+            <a className="overlay-2" style={{textDecoration:'none'}} href='https://github.com/laharsh/Smart-Email-Assistant'>VIEW CODE</a>
+            <span>Smart Email Assistant</span>
+            <div className="skill-used">
+              <p>Machine Learning</p>
+              <p>Open AI LLM</p>
+              <p>Python</p>
+              <p>Fast API</p>
+            </div>
+          </div>
           <div className="container">
             <img src={p1}></img>
             <a className="overlay-1" style={{textDecoration:'none'}} href='https://fullstack-restaurantae.vercel.app/home'>VIEW PROJECT</a>
